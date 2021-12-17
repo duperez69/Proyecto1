@@ -1,0 +1,22 @@
+body{
+    background: #00ee9f;
+}
+
+#principal{
+    width: 500px;
+}
+
+#logo{
+    width: 100px;
+}
+
+.sec_secundaria{
+    background: url(../img/desWeb.png);
+    background-size: auto;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+
+h1{
+    color: #ffffff
+}
