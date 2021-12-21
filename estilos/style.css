@@ -1,22 +1,158 @@
-body{
-    background: #00ee9f;
+*{
+    box-sizing: border-box;
+    margin: 0;
 }
+
+body{    
+    background: #FDC094;
+
+    /*background: rgb(184,45,162);
+    background: linear-gradient(90deg, rgba(184,45,162,1) 0%, rgba(252,69,69,0.8242647400757178) 0%, rgba(29,237,253,0.9110994739692753) 0%, rgba(0,247,144,0.9026961126247374) 100%);*/
+
+}
+
 
 #principal{
     width: 500px;
 }
 
 #logo{
-    width: 100px;
+    width: 135px;
 }
 
-.sec_secundaria{
-    background: url(../img/desWeb.png);
-    background-size: auto;
-    height: 600px;
-    background-repeat: no-repeat;
+#sec_principal{
+    margin-left: 85px;
+    margin-right: 85px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    word-spacing: normal;
+    display: block;
 }
+
+#sec_principal h1{
+    text-align: center;
+}
+
+.principal_texto{
+    text-align: justify;
+    font-size: 135%;
+}
+
+.frontend_texto{
+    margin-left: 85px;
+    margin-right: 85px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    word-spacing: normal;
+    display: block;
+}
+
+
+.frontend_texto h1{
+    text-align: center;
+}
+
+.frontend_texto p{
+    text-align: justify;
+    font-size: 135%;
+}
+
+.frontend_texto h4{
+    font-size: 135%;
+}
+
+.menu{
+    display: flex;
+    background: #5E72EB;
+    justify-content: space-around;
+    height: 100px;
+
+    /*background: #0d5e72b7;*/
+}
+
+.contenedor-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.contenedor-menu{
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    padding-right: 30px;
+}
+
+.contenedor-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+.contenedor-item a{
+    text-decoration: none;
+    color: #ffff;
+}
+
 
 h1{
-    color: #ffffff
+    color: #ff0404
 }
+
+/*Aquí comienzan los estilos de imagenes backend*/
+.galeria{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor-galeria{
+    display: flex;
+}
+
+.contenedor-galeria img{
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 200ms;
+    opacity: .8;
+}
+
+.contenedor-galeria img:hover{
+    transform: scale(1.15);
+    opacity: 1;
+}
+
+.backend_titulo{
+    margin-left: 85px;
+    margin-right: 85px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    word-spacing: normal;
+    display: block;
+    
+}
+
+.backend_titulo h1 {
+    text-align: center;
+}
+
+.backend_titulo p{
+    text-align: justify;
+    font-size: 130%;
+}
+
+.backend_titulo ul{
+    text-align: justify;
+    font-size: 130%;
+}
+
